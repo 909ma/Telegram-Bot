@@ -2,6 +2,8 @@ import telegram
 import asyncio
 from my_key import *
 
+html = f"https://api.telegram.org/bot{my_token}/getUpdates"
+
 async def main():
     token = my_token
     bot = telegram.Bot(token)
